@@ -2,14 +2,14 @@ from telethon import TelegramClient, events
 import requests
 
 # اطلاعات حساب تلگرام
-api_id = "20287544"  # از my.telegram.org دریافت کنید
-api_hash = "9906745c9610f17a0158a6ebda971c4d"  # از my.telegram.org دریافت کنید
+api_id = ""  # از my.telegram.org دریافت کنید
+api_hash = ""  # از my.telegram.org دریافت کنید
 
 # اطلاعات Webhook Slack
-slack_webhook_url = "https://hooks.slack.com/services/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"  # از Slack دریافت کنید
+slack_webhook_url = ""  # از Slack دریافت کنید
 
 # نام کانال (همان‌طور که در تلگرام نشان داده می‌شود)
-channel_name = "aryan"  # مثلاً "MyPrivateChannel"
+channel_name = ""  # مثلاً "MyPrivateChannel"
 
 # ایجاد کلاینت Telethon
 client = TelegramClient('session_name', api_id, api_hash)
